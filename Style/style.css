@@ -1,6 +1,3 @@
-.light_blue {
-    background-color: lightblue;
-}
 
 #first_div {
     /* background-color: lightcoral; */
@@ -11,15 +8,17 @@
 #left_div {
     background-color: #ccc6c688;
     width: 15%;
-    height: 100%;
+    height: 260%;
     float: left;
-    margin-left: 0px;
+    margin-right: 0px;
     padding-top: 30px;
+    position: static;
+    font-size: 88%;
+    line-height: 1.5em;
 }
 
 #right_div {
     background-color:#fdfdfd ;
-    border-width: px;
     width: 85%;
     height: 100%;
     float: right;
@@ -56,7 +55,7 @@ h1{
     border: 1px solid gray;
     border-spacing: 2px;
     background-color: rgb(240, 235, 235);
-    margin: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 10px;
     padding: 4px;
     font-family: sans-serif;
     font-size: 90%;
@@ -78,8 +77,9 @@ td {
 p {
     font-family: sans-serif;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
     line-height: 1.7em;
+    font-size: 88%;
 }
 .navbar_block{
     padding: 5px 0px 0px 5px;
@@ -88,9 +88,110 @@ p {
 
 #contents_list {
     border: 1px solid #a2a9b1;
-    width:240px;
-    font: 95%;
+    background-color: #f8f9fa;
+    width: 200px;
+    font-size: 95%;
     padding: 5px;
     margin-bottom: 20px;
+    margin-left: 15px;
     text-decoration: none;
+    line-height: 1.5em;
+    padding: 7px;
 }
+a {
+    color: blue;
+}
+#gameplay {
+    text-align: left;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+#othermodes {
+    text-align: left;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+.gameplay_label {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: serif;
+    font-size: 25px;
+    padding-left: 10px;
+}
+#gameplay-pic {
+    border: solid gray;
+    float: right;
+    clear: right;
+    width: auto;
+    background-color: transparent;
+    margin: 0.5em 0 1.3em 1.4em;
+    position: static;
+
+}
+.thumbinner {
+    border: 1px solid #c8ccd1;
+    background-color: #f8f9fa;
+    font-size: 94%;
+}
+.thumbimage {
+    background-color: #ffffff;
+    border: 1px solid #c8ccd1;
+}
+.thumbcaption {
+    border: 0;
+    font-size: 94%;
+}
+.thumb2 {
+    width: auto;
+    background-color: transparent;
+}
+.tright {
+    margin: 0.5em 0 1.3em 1.4em;
+    float: right;
+    clear: right;
+    width: auto;
+    position: static;
+}
+h2 {
+    margin-top: 1em;
+    margin-left: 15px;
+    font-size: 1.5em;
+    margin-bottom: 0.25em;
+    padding: 0;
+    font-family:serif;
+    line-height: 1.3;
+
+}
+.notesection {
+    list-style-type: lower-alpha;
+    font-size: 90%;
+    margin-bottom: 0.5em;
+    margin-top: 10px;
+    font-family: serif;
+    margin-left: 15px;
+    line-height: 1.5em;
+
+}
+.refrences {
+    font-size: 100%;
+    margin-bottom: 0;
+    list-style-type: inherit;
+}
+li {
+    counter-increment: inherit;
+    padding-top: 0;
+}
+ul {
+    padding-left: 25px;
+}
+span {
+    color: #0645ad
+}
+hr{
+    border:none;
+    height:1px;
+    margin:0px;
+    padding:0px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
